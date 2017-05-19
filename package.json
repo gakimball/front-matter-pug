@@ -1,0 +1,40 @@
+{
+  "name": "front-matter-pug",
+  "version": "1.0.0",
+  "description": "Parse Front Matter from a Pug comment",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gakimball/front-matter-pug.git"
+  },
+  "keywords": [
+    "front-matter",
+    "pug",
+    "comment",
+    "yaml"
+  ],
+  "author": "Geoff Kimball <geoff@geoffkimball.com> (http://geoffkimball.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gakimball/front-matter-pug/issues"
+  },
+  "homepage": "https://github.com/gakimball/front-matter-pug#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "xo": "^0.18.1"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "xo": {
+    "space": true
+  },
+  "dependencies": {
+    "front-matter": "^2.1.2",
+    "strip-indent": "^2.0.0"
+  }
+}
